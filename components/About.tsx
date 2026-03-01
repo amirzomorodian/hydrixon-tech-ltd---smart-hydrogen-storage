@@ -41,7 +41,7 @@ const About: React.FC = () => {
           >
             <div className="absolute inset-0 bg-brand-500 rounded-2xl transform rotate-3 opacity-20" />
             <img
-              src="/smart_hydrogen_storage.png"
+              src={`${import.meta.env.BASE_URL}smart_hydrogen_storage.png`}
               alt="Hydrixon Thermal Management System"
               className="relative rounded-2xl shadow-2xl border border-slate-700 w-full object-cover"
             />
