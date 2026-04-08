@@ -8,6 +8,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Technology', href: '#about' },
   { label: 'Services', href: '#services' },
   { label: 'Advantages', href: '#mission' },
+  { label: 'Roadmap', href: '#future' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -22,21 +23,7 @@ export const SERVICES: ServiceItem[] = [
     description: "Advanced active cooling and control algorithms to optimize absorption/desorption kinetics and ensure system safety.",
     icon: Thermometer
   },
-  {
-    title: "AWS Smart Manufacturing",
-    description: "Utilizing AWS IoT SiteWise and Greengrass for real-time monitoring, ensuring batch-to-batch consistency and quality control.",
-    icon: Factory
-  },
-  {
-    title: "Predictive Analytics",
-    description: "Machine Learning models (Amazon SageMaker) to correlate manufacturing parameters with product performance and reduce waste.",
-    icon: Database
-  },
-  {
-    title: "Supply Chain Visibility",
-    description: "Centralized data lakes tracking raw material origin and rare-earth certification using AWS S3 and Glue.",
-    icon: Zap
-  },
+
   {
     title: "Embedded Control Systems",
     description: "Intelligent sensors and solid-state logic to prevent heat accumulation and manage hydrogen uptake efficiency.",

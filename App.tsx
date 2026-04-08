@@ -6,6 +6,7 @@ import Services from './components/Services';
 import MissionVision from './components/MissionVision';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FutureDevelopments from './components/FutureDevelopments';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <About />
         <MissionVision />
         <Services />
+        <FutureDevelopments />
         <Contact />
       </main>
       <Footer />

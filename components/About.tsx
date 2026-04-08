@@ -26,8 +26,11 @@ const About: React.FC = () => {
 
             <div className="bg-slate-800/50 border-l-4 border-brand-500 p-6 rounded-r-lg">
               <h3 className="text-xl font-bold text-white mb-2">The Hydrixon Solution</h3>
+              <p className="text-slate-300 pb-4">
+                We implement <strong>advanced active cooling</strong> and <strong>precision control systems</strong> to maintain optimal temperatures during cycles. This dissipates hotspots, increases reaction kinetics, and significantly enhances safety and operational life.
+              </p>
               <p className="text-slate-300">
-                We implement <strong>advanced active cooling</strong> and <strong>AI-driven control algorithms</strong> to maintain optimal temperatures during cycles. This dissipates hotspots, increases reaction kinetics, and significantly enhances safety and operational life.
+                Our solid-state storage solution is uniquely designed to be highly versatile, bridging the gap between scale and portability. It guarantees optimal performance and safety for <strong>both stationary and mobile applications</strong>.
               </p>
             </div>
           </motion.div>

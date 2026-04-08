@@ -10,9 +10,9 @@ const Services: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <span className="text-brand-400 font-semibold tracking-wider uppercase">Technology & Services</span>
-          <h2 className="mt-2 text-3xl md:text-4xl font-bold text-white">Innovation Powered by AWS</h2>
+          <h2 className="mt-2 text-3xl md:text-4xl font-bold text-white">Next-Generation Hydrogen Solutions</h2>
           <p className="mt-4 text-slate-400 max-w-2xl mx-auto">
-            From solid-state storage hardware to cloud-native predictive analytics, we provide end-to-end hydrogen solutions.
+            From advanced solid-state storage hardware to precision thermal management, we provide complete, end-to-end solutions.
           </p>
         </div>
 

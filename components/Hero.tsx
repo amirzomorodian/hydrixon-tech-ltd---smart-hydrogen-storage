@@ -41,8 +41,8 @@ const Hero: React.FC = () => {
           </h1>
 
           <p className="mt-4 text-xl text-slate-400 max-w-2xl mx-auto mb-10">
-            Advanced Hydrogen Storage Systems with AI-driven thermal management. 
-            Operates at moderate pressure with higher safety and lower costs than liquid or compressed hydrogen.
+            Advanced Hydrogen Storage Systems with active thermal management. 
+            Operates at moderate pressure with higher safety and lower costs than liquid or compressed hydrogen. Designed for both stationary and mobile applications.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
