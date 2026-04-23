@@ -43,11 +43,18 @@ const About: React.FC = () => {
             className="relative"
           >
             <div className="absolute inset-0 bg-brand-500 rounded-2xl transform rotate-3 opacity-20" />
-            <img
-              src={`${import.meta.env.BASE_URL}smart_hydrogen_storage.png`}
-              alt="Hydrixon Thermal Management System"
-              className="relative rounded-2xl shadow-2xl border border-slate-700 w-full object-cover"
-            />
+            <div className="relative rounded-2xl shadow-2xl border border-slate-700 overflow-hidden" style={{ aspectRatio: '16/9' }}>
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/Iczswsn_dpc?rel=0"
+                title="Engineering Solid State Hydrogen – Breaking the Thermal Bottleneck"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+                style={{ border: 'none' }}
+              />
+            </div>
           </motion.div>
         </div>
 
